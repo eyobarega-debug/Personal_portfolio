@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Eyob Arega — Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="scan"></div>
+
+<header>
+  <nav>
+    <a href="#" class="logo">Eyob Arega(baba)</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <div class="hero__inner">
+
+    <div class="hero__text">
+      <p class="eyebrow"> Software Engeneering Student @ aastu</p>
+      <h1>Eyob Arega</h1>
+      <p class="lede">
+        Third-year Software Engeneering student at AASTU, currently training in development
+        at INSA. I build things with Python, C++ and SQL, and I like taking
+        systems apart to see how they hold together.
+      </p>
+      <div class="hero__actions">
+        <a href="#projects" class="btn btn--primary">View projects</a>
+        <a href="#contact" class="btn btn--ghost">contact</a>
+      </div>
+    </div>
+</section>
+
+<section id="about">
+  <div class="about__inner">
+    <div class="about__photo">
+      <img src="IMG_20240825_101436_048.jpg" alt="Photo of Eyob Arega">
+    </div>
+    <div class="about__text">
+      <h2>About me</h2>
+      <p>
+        I'm a Software Engeneering student at Addis Ababa Science and Technology
+        University, heading into my third year. This summer I'm also on a
+        one-month program with INSA's development department, having earned
+        my spot through a competitive entrance exam.
+      </p>
+      <p>
+        Most of what I know, I learned by building it first and reading the
+        theory after  quiz games, database-backed C++ apps, subnet
+        calculations done by hand until they clicked. I like problems with a
+        clear right answer and the debugging that gets me there.
+      </p>
+    </div>
+  </div>
+</section>
+
+<section id="skills">
+  <h2>Skills</h2>
+
+  <div class="skills-grid">
+    <div class="skill-group">
+      <h4>languages</h4>
+      <div class="tags">
+        <span>Python</span>
+        <span>C++</span>
+        <span>SQL</span>
+        <span>JavaScript</span>
+      </div>
+    </div>
+    <div class="skill-group">
+      <h4>web</h4>
+      <div class="tags">
+        <span>HTML</span>
+        <span>CSS</span>
+      </div>
+    </div>
+    <div class="skill-group">
+      <h4>systems</h4>
+      <div class="tags">
+        <span>MySQL</span>
+        <span>PostgreSQL</span>
+        <span>Networking</span>
+        <span>Git</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="projects">
+  <h2>Projects</h2>
+
+  <div class="cards">
+
+    <article class="card">
+      <p class="card__meta">01 · python</p>
+      <p>A terminal-based quiz engine built for a FOP2 final group project  question flow, scoring, and replay logic in Python.</p>
+      <div class="tags tags--sm"><span>Python</span></div>
+    </article>
+
+    <article class="card">
+      <p class="card__meta">02 · c++ / mysql</p>
+      <h3>Library Management System</h3>
+      <p>A C++ application backed by a MySQL database, covering borrower records, catalog search, and checkout tracking.</p>
+      <div class="tags tags--sm"><span>C++</span><span>MySQL</span></div>
+    </article>
+
+    <article class="card">
+      <p class="card__meta">03 · html / css / js</p>
+      <h3>BMI Calculator</h3>
+      <p>A small client-side calculator with instant feedback, built to practice clean form handling and DOM logic.</p>
+      <div class="tags tags--sm"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+    </article>
+
+    <article class="card">
+      <p class="card__meta">04 · sql / postgresql</p>
+      <h3>Datanomics Group Project</h3>
+      <p>A group database project on the Sakila schema — joins, aggregates, and a case-study query set built and debugged in PostgreSQL.</p>
+      <div class="tags tags--sm"><span>PostgreSQL</span><span>SQL</span></div>
+    </article>
+
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Contact</h2>
+
+  <div class="contact-card">
+    <p><span class="t-prompt"></span>EMAIL</p>
+    <p class="t-out"><a href="mailto:aregaeyob3@gmail.com">aregaeyob3@gmail.com</a></p>
+    <p><span class="t-prompt"></span>GITHUB</p>
+    <p class="t-out"><a href="https://github.com/eyobarega-debug" target="_blank" rel="noopener">github.com/eyobarega-debug</a></p>
+    <p><span class="t-prompt"></span>Tellphone</p>
+    <p class="t-out">0992320654</p>
+  </div>
+</section>
+
+<footer>
+  <p>&copy; <span id="year"></span> Eyob Arega — built line by line.</p>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
