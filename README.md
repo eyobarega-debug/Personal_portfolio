@@ -1,68 +1,72 @@
-# Portfolio
+# 💻 Personal Portfolio
 
-A personal developer portfolio with a dark, terminal-inspired theme — monospace accents, a typed-text hero, and a fake terminal window as the centerpiece.
+A modern personal developer portfolio with a dark, terminal-inspired design. It features a typing animation, a fake terminal interface, responsive layout, and smooth user interactions.
 
-## Features
+## ✨ Features
 
-- **Terminal-style hero** — animated typed line and a mock terminal card with prompt/output styling
-- **Sticky, responsive nav** — collapses into a mobile menu below 640px
-- **Sections** — About, Skills, Projects, Contact
-- **Skill tags & project cards** with hover states
-- **Back-to-top button**
-- Respects `prefers-reduced-motion` (disables cursor blink and smooth scroll)
+- 🖥️ Terminal-style hero section with typing animation
+- 📌 Sticky and responsive navigation bar
+- 👤 About section
+- 🛠️ Skills section with technology tags
+- 📂 Project cards with hover effects
+- 📞 Contact section
+- ⬆️ Back-to-top button
+- 📱 Fully responsive design
+- ♿ Supports `prefers-reduced-motion` for accessibility
 
-## Tech Stack
+## 🚀 Built With
 
 - HTML5
-- CSS3 (custom properties, CSS Grid/Flexbox)
-- Vanilla JavaScript
-- Fonts: [JetBrains Mono](https://www.jetbrains.com/lp/mono/) (mono) + [Inter](https://rsms.me/inter/) (body)
+- CSS3
+- JavaScript (Vanilla)
+- JetBrains Mono
+- Inter Font
 
-## Project Structure
+## 📁 Project Structure
 
-```
-.
-├── index.html
-├── style.css
+```text
+Portfolio/
+│── index.html
+│── style.css
 └── script.js
 ```
 
-## Getting Started
+## ▶️ How to Run
 
-No build step required.
+1. Download or clone the repository.
+2. Open `index.html` in your web browser.
 
-1. Clone or download the repo
-2. Open `index.html` in your browser
+Or run a local server:
 
-   or serve it locally:
+```bash
+npx serve .
+```
 
-   ```bash
-   npx serve .
-   ```
+## 🎨 Customization
 
-## Customization
+You can easily change the website theme by editing the CSS variables at the top of `style.css`.
 
-Colors, spacing, and radii are controlled via CSS custom properties at the top of `style.css`:
+Example:
 
 ```css
 :root{
   --bg:#0b0f14;
   --accent:#6fd9c9;
-  --amber:#f2b866;
-  --font-mono:'JetBrains Mono', ui-monospace, Menlo, monospace;
-  --font-body:'Inter', system-ui, sans-serif;
+  --font-mono:'JetBrains Mono', monospace;
+  --font-body:'Inter', sans-serif;
 }
 ```
 
-Update these to re-theme the site without touching individual component styles.
+## 📌 To Do
 
-## Sections to Fill In
+- Add your profile photo
+- Update the About section
+- Add your skills
+- Add your projects
+- Update contact information and social links
 
-- [ ] About text and photo
-- [ ] Skills list (grouped by category)
-- [ ] Project cards (title, tags, description, links)
-- [ ] Contact details / social links
+## 📄 License
 
-## License
+This project is licensed under the MIT License.
 
-MIT — feel free to fork and adapt.
+Feel free to fork, customize, and use it for your own portfolio.
